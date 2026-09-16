@@ -1,0 +1,42 @@
+name: Refresh community leaderboard
+
+on:
+  issue_comment:
+    types: [created, edited, deleted]
+  issues:
+    types: [edited, labeled, unlabeled]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: serbench-public-leaderboard
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    if: github.repository == 'LordTARN1SHED/SERBench'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Rebuild from GitHub's authenticated issue/comment API
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python tools/update_leaderboard.py
+      - name: Publish only changed aggregate results
+        run: |
+          if git diff --quiet -- community_results.json; then
+            echo 'Community leaderboard unchanged'
+            exit 0
+          fi
+          git add -- community_results.json
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update community leaderboard' -- community_results.json
+          git push origin HEAD:refs/heads/main
