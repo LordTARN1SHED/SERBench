@@ -1,5 +1,19 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T21:06:48Z",
-  "results": []
+  "updated_at": "2026-09-16T21:20:29.416147Z",
+  "results": [
+    {
+      "method": "service-integration-abstention",
+      "issue_url": "https://github.com/LordTARN1SHED/SERBench/issues/1",
+      "comment_url": "https://github.com/LordTARN1SHED/SERBench/issues/1#issuecomment-5704616255",
+      "evaluated_at": "2026-09-16T21:15:22Z",
+      "metrics": {
+        "mss_complete@5": 0.0,
+        "mss_complete@8": 0.0,
+        "group_recall@5": 0.0,
+        "group_recall@8": 0.0,
+        "necessity_weighted_recall@5": 0.0
+      }
+    }
+  ]
 }
