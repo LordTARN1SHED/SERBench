@@ -6,6 +6,8 @@ on:
   issues:
     types: [edited, labeled, unlabeled]
   workflow_dispatch:
+  schedule:
+    - cron: '11 * * * *'
 
 permissions:
   contents: write
@@ -17,8 +19,14 @@ concurrency:
 
 jobs:
   rebuild:
-    if: github.repository == 'LordTARN1SHED/SERBench'
+    if: >-
+      github.repository == 'LordTARN1SHED/SERBench' &&
+      (github.event_name != 'issue_comment' || github.event.comment.user.id == 134487451) &&
+      (github.event_name != 'issues' ||
+       contains(github.event.issue.labels.*.name, 'evaluation') ||
+       github.event.label.name == 'evaluation')
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
         with:
