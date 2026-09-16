@@ -71,7 +71,7 @@ Start with [the data card](docs/DATASET.md) for construction scope, source-text 
 | Qwen3 embedding with reranking | 61.4% | 72.4% |
 | MSS-Complement | **73.0%** | **80.6%** |
 
-These are frozen Test500 paper results, not scores produced by the onboarding example. They describe the supplied-candidate set-recovery track; the paper separately studies recovery from frozen repository source. This repository does not present an automated or live leaderboard.
+These are frozen Test500 paper results, not scores produced by the onboarding example. They describe the supplied-candidate set-recovery track; the paper separately studies recovery from frozen repository source. All twelve primary methods' five-metric summaries are available in [reference results](reference_results/). Successfully scored community submissions are published separately in [the automatic community results feed](community_results.json), with links to their evaluation records. The explicitly named service-integration-abstention entry is a zero-evidence service test, not a research baseline.
 
 ## Repository map
 
