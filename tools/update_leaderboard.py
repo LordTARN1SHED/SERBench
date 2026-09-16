@@ -64,7 +64,7 @@ class GitHubAPI:
 
     def get(self, path: str) -> Any:
         # All paths are constructed locally; no event or comment value becomes a URL.
-        if not re.fullmatch(r"/[A-Za-z0-9/?=&-]+", path):
+        if not re.fullmatch(r"/[A-Za-z0-9_/?=&-]+", path):
             raise ValueError("invalid API path")
         request = Request(
             API_BASE + path,

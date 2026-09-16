@@ -2,6 +2,7 @@
 
 from datetime import datetime, timezone
 import hashlib
+from io import BytesIO
 import json
 import unittest
 
@@ -192,6 +193,38 @@ class LeaderboardTests(unittest.TestCase):
         api.get = lambda _path: {"error": "rate limited"}
         with self.assertRaises(ValueError):
             api.all_comments()
+
+    def test_api_request_path_through_real_get_and_build(self) -> None:
+        comments_url = (
+            board.API_BASE + "/issues/comments?sort=created&direction=asc&per_page=100&page=1"
+        )
+        issue_url = board.API_BASE + "/issues/12"
+        payloads = {comments_url: [comment()], issue_url: issue()}
+
+        class FakeOpener:
+            def __init__(self) -> None:
+                self.seen: list[str] = []
+
+            def open(self, request, timeout: int) -> BytesIO:
+                self.seen.append(request.full_url)
+                self.assert_request(request, timeout)
+                return BytesIO(json.dumps(payloads[request.full_url]).encode("utf-8"))
+
+            @staticmethod
+            def assert_request(request, timeout: int) -> None:
+                assert timeout == 20
+                assert request.get_method() == "GET"
+                assert request.get_header("Authorization") == "Bearer test-public-token"
+
+        api = board.GitHubAPI("test-public-token")
+        fake = FakeOpener()
+        api.opener = fake
+        rows = board.build_results(api.all_comments(), api.issue)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(fake.seen, [comments_url, issue_url])
+        with self.assertRaises(ValueError):
+            api.get("/issues/12#untrusted-fragment")
+        self.assertEqual(fake.seen, [comments_url, issue_url])
 
 
 if __name__ == "__main__":
