@@ -1,0 +1,79 @@
+{
+  "release": "serbench-public-v1-v5.6",
+  "source_archives": [
+    {
+      "member": "data/Cal500_public_dataset_20260907.zip",
+      "sha256": "427de79ff5c9e7133200841182e60d9ead79b0608c188ecaad1ae06b18203668"
+    },
+    {
+      "member": "data/Test500_final_public_freeze_20260907.zip",
+      "sha256": "2d1f32601bdaa40f031a101f4a2a7c7ec948685edb92711258b3de4aae0acd3d"
+    },
+    {
+      "member": "data/Cal500_candidate_pools_20260917.zip",
+      "sha256": "2bc2d40ff542bae9df0bfd1f8825cb32f376b9ca2c7fa19714c0f0a0b6fb6719"
+    }
+  ],
+  "source_files": {
+    "calibration_items.jsonl": "58549932bae66a171c20b7efbd06701839112b4a56af54df7d7c781d160c43e8",
+    "calibration_labels.jsonl": "3ef8a73e839bb10cdbe9e02cd77b4264f81ca5ac97b48bbcf3ff4893f445d03b",
+    "cal500_items_with_candidate_evidence.jsonl": "e6ba84b7d5fbc94583328867d8ba0b823d4a320c28882053c278a641bfe2dba2",
+    "test500_items.jsonl": "08a69a14cd0b8ae068e053eaa670788b7eaf0807645e2959b9e775f15d9f54c6"
+  },
+  "files": {
+    "cal500/items.jsonl.gz": {
+      "sha256": "aa4d8d250f47dae4239ef567db6edc8ae6dbacb8421874fe6c95e748b761386f",
+      "uncompressed_sha256": "2dd469eb236f54f248dd2d5358b48285aaf96a268eda66486de43ad810ad3b29",
+      "records": 500,
+      "bytes": 29263904
+    },
+    "cal500/labels.jsonl.gz": {
+      "sha256": "adb5e164fe94b1c29301965478005d188eaea332313d636e03c253ee33317dae",
+      "uncompressed_sha256": "2bdf3fc559dcb83b7392048902565b34b5ca19091b6e0466cfa3ec0bf29676b2",
+      "records": 500,
+      "bytes": 121455
+    },
+    "test500/items.jsonl.gz": {
+      "sha256": "837ed2ab7062c64b219dd4b760b0f6b58bdc273d08ccbc2da07f41a65e1299b3",
+      "uncompressed_sha256": "d8b62a47ef063580eb763a3b809b6ce7961ff4f3238a6f344e02e8ba561c0e11",
+      "records": 500,
+      "bytes": 26010955
+    },
+    "example/items.jsonl": {
+      "sha256": "32a237cfe32d06ceae5dc840b4059389afe21c55725c5b148fef9c38be4ac514",
+      "uncompressed_sha256": "32a237cfe32d06ceae5dc840b4059389afe21c55725c5b148fef9c38be4ac514",
+      "records": 3,
+      "bytes": 703902
+    },
+    "example/labels.jsonl": {
+      "sha256": "42d88b8004e1f5482542893ef0c83b88693288a50219e1b939dccdaa29863994",
+      "uncompressed_sha256": "42d88b8004e1f5482542893ef0c83b88693288a50219e1b939dccdaa29863994",
+      "records": 3,
+      "bytes": 5845
+    },
+    "cal500/id_mapping.jsonl.gz": {
+      "sha256": "9a2e49b11c4e97c3f3cf82be2500c337dfc511b1d329830962e30b43dd99af4d",
+      "uncompressed_sha256": "6df1c1a3b46877e6bcc94a64c089f855beca3fd5be6a603e54e3408cd01b9d50",
+      "records": 500,
+      "bytes": 15207
+    }
+  },
+  "transformations": [
+    "Cal500 exact item_id join against v5.6 public states and labels; candidate pool recovered from v5.3 asset.",
+    "Cal500 flattened into inference records; canonical scoring state IDs retained.",
+    "Candidate construction provenance and role_hints removed from inference inputs; these contain gold-derived construction hints. Candidate IDs, text, order and membership unchanged.",
+    "Calibration certificates retained unchanged as JSON objects, separately from inference inputs.",
+    "Test500 original public JSON objects retained unchanged.",
+    "No Test500 certificates or private scoring artifacts included.",
+    "Gzip files use deterministic timestamps."
+  ],
+  "checks": {
+    "cal500_states": 500,
+    "test500_states": 500,
+    "cal500_candidates": 43451,
+    "repository_disjoint": true,
+    "cal500_gold_in_pool": true,
+    "cal500_gold_observed_disjoint": true,
+    "test500_overlap_states": 186
+  }
+}

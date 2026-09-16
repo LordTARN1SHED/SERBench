@@ -1,0 +1,20 @@
+name: SDK checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e .
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/verify_release.py
+      - run: python -m serbench baseline --split example --output predictions.jsonl --k 8
+      - run: python -m serbench score --split example --predictions predictions.jsonl --output example_scores

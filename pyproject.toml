@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "serbench"
+version = "0.1.0"
+description = "Dependency-free SDK and command-line tools for the public SERBench benchmark"
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "SERBench contributors"}]
+
+[project.urls]
+Homepage = "https://github.com/LordTARN1SHED/SERBench"
+Documentation = "https://github.com/LordTARN1SHED/SERBench/blob/main/docs/QUICKSTART.md"
+Issues = "https://github.com/LordTARN1SHED/SERBench/issues"
+
+[project.scripts]
+serbench = "serbench.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

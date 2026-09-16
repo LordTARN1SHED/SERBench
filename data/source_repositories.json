@@ -1,0 +1,878 @@
+[
+  {
+    "repository": "AgentOps-AI/agentops",
+    "url": "https://github.com/AgentOps-AI/agentops"
+  },
+  {
+    "repository": "Aider-AI/aider",
+    "url": "https://github.com/Aider-AI/aider"
+  },
+  {
+    "repository": "Archmonger/django-dbbackup",
+    "url": "https://github.com/Archmonger/django-dbbackup"
+  },
+  {
+    "repository": "Azure-Samples/azure-search-openai-demo",
+    "url": "https://github.com/Azure-Samples/azure-search-openai-demo"
+  },
+  {
+    "repository": "Azure/azure-sdk-for-python",
+    "url": "https://github.com/Azure/azure-sdk-for-python"
+  },
+  {
+    "repository": "BerriAI/litellm",
+    "url": "https://github.com/BerriAI/litellm"
+  },
+  {
+    "repository": "Delgan/loguru",
+    "url": "https://github.com/Delgan/loguru"
+  },
+  {
+    "repository": "Flexget/Flexget",
+    "url": "https://github.com/Flexget/Flexget"
+  },
+  {
+    "repository": "FreeOpcUa/opcua-asyncio",
+    "url": "https://github.com/FreeOpcUa/opcua-asyncio"
+  },
+  {
+    "repository": "HypothesisWorks/hypothesis",
+    "url": "https://github.com/HypothesisWorks/hypothesis"
+  },
+  {
+    "repository": "IBM/mcp-context-forge",
+    "url": "https://github.com/IBM/mcp-context-forge"
+  },
+  {
+    "repository": "Kong/insomnia",
+    "url": "https://github.com/Kong/insomnia"
+  },
+  {
+    "repository": "Kozea/Radicale",
+    "url": "https://github.com/Kozea/Radicale"
+  },
+  {
+    "repository": "Kozea/WeasyPrint",
+    "url": "https://github.com/Kozea/WeasyPrint"
+  },
+  {
+    "repository": "Lightning-AI/LitServe",
+    "url": "https://github.com/Lightning-AI/LitServe"
+  },
+  {
+    "repository": "MDAnalysis/mdanalysis",
+    "url": "https://github.com/MDAnalysis/mdanalysis"
+  },
+  {
+    "repository": "MechanicalSoup/MechanicalSoup",
+    "url": "https://github.com/MechanicalSoup/MechanicalSoup"
+  },
+  {
+    "repository": "MervinPraison/PraisonAI",
+    "url": "https://github.com/MervinPraison/PraisonAI"
+  },
+  {
+    "repository": "NVIDIA/NeMo-Guardrails",
+    "url": "https://github.com/NVIDIA/NeMo-Guardrails"
+  },
+  {
+    "repository": "NVIDIA/garak",
+    "url": "https://github.com/NVIDIA/garak"
+  },
+  {
+    "repository": "NewFuture/DDNS",
+    "url": "https://github.com/NewFuture/DDNS"
+  },
+  {
+    "repository": "PriorLabs/TabPFN",
+    "url": "https://github.com/PriorLabs/TabPFN"
+  },
+  {
+    "repository": "PyPSA/PyPSA",
+    "url": "https://github.com/PyPSA/PyPSA"
+  },
+  {
+    "repository": "Pyomo/pyomo",
+    "url": "https://github.com/Pyomo/pyomo"
+  },
+  {
+    "repository": "QuantEcon/QuantEcon.py",
+    "url": "https://github.com/QuantEcon/QuantEcon.py"
+  },
+  {
+    "repository": "SYSTRAN/faster-whisper",
+    "url": "https://github.com/SYSTRAN/faster-whisper"
+  },
+  {
+    "repository": "SciTools/cartopy",
+    "url": "https://github.com/SciTools/cartopy"
+  },
+  {
+    "repository": "Textualize/textual",
+    "url": "https://github.com/Textualize/textual"
+  },
+  {
+    "repository": "TorchIO-project/torchio",
+    "url": "https://github.com/TorchIO-project/torchio"
+  },
+  {
+    "repository": "Tuxemon/Tuxemon",
+    "url": "https://github.com/Tuxemon/Tuxemon"
+  },
+  {
+    "repository": "Unidata/MetPy",
+    "url": "https://github.com/Unidata/MetPy"
+  },
+  {
+    "repository": "a2aproject/a2a-python",
+    "url": "https://github.com/a2aproject/a2a-python"
+  },
+  {
+    "repository": "ag2ai/faststream",
+    "url": "https://github.com/ag2ai/faststream"
+  },
+  {
+    "repository": "aiogram/aiogram",
+    "url": "https://github.com/aiogram/aiogram"
+  },
+  {
+    "repository": "alandtse/alexa_media_player",
+    "url": "https://github.com/alandtse/alexa_media_player"
+  },
+  {
+    "repository": "albumentations-team/albumentations",
+    "url": "https://github.com/albumentations-team/albumentations"
+  },
+  {
+    "repository": "amoffat/sh",
+    "url": "https://github.com/amoffat/sh"
+  },
+  {
+    "repository": "ansible/ansible-lint",
+    "url": "https://github.com/ansible/ansible-lint"
+  },
+  {
+    "repository": "ansible/molecule",
+    "url": "https://github.com/ansible/molecule"
+  },
+  {
+    "repository": "anuraghazra/github-readme-stats",
+    "url": "https://github.com/anuraghazra/github-readme-stats"
+  },
+  {
+    "repository": "apify/crawlee-python",
+    "url": "https://github.com/apify/crawlee-python"
+  },
+  {
+    "repository": "arrow-py/arrow",
+    "url": "https://github.com/arrow-py/arrow"
+  },
+  {
+    "repository": "arviz-devs/arviz",
+    "url": "https://github.com/arviz-devs/arviz"
+  },
+  {
+    "repository": "astronomer/dag-factory",
+    "url": "https://github.com/astronomer/dag-factory"
+  },
+  {
+    "repository": "authlib/authlib",
+    "url": "https://github.com/authlib/authlib"
+  },
+  {
+    "repository": "aws-cloudformation/cfn-lint",
+    "url": "https://github.com/aws-cloudformation/cfn-lint"
+  },
+  {
+    "repository": "aws-powertools/powertools-lambda-python",
+    "url": "https://github.com/aws-powertools/powertools-lambda-python"
+  },
+  {
+    "repository": "awslabs/mcp",
+    "url": "https://github.com/awslabs/mcp"
+  },
+  {
+    "repository": "axios/axios",
+    "url": "https://github.com/axios/axios"
+  },
+  {
+    "repository": "beancount/beancount",
+    "url": "https://github.com/beancount/beancount"
+  },
+  {
+    "repository": "beetbox/beets",
+    "url": "https://github.com/beetbox/beets"
+  },
+  {
+    "repository": "beeware/briefcase",
+    "url": "https://github.com/beeware/briefcase"
+  },
+  {
+    "repository": "braindecode/braindecode",
+    "url": "https://github.com/braindecode/braindecode"
+  },
+  {
+    "repository": "bridgecrewio/checkov",
+    "url": "https://github.com/bridgecrewio/checkov"
+  },
+  {
+    "repository": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use"
+  },
+  {
+    "repository": "camel-ai/camel",
+    "url": "https://github.com/camel-ai/camel"
+  },
+  {
+    "repository": "casbin/pycasbin",
+    "url": "https://github.com/casbin/pycasbin"
+  },
+  {
+    "repository": "catchorg/Catch2",
+    "url": "https://github.com/catchorg/Catch2"
+  },
+  {
+    "repository": "celery/celery",
+    "url": "https://github.com/celery/celery"
+  },
+  {
+    "repository": "celery/django-celery-beat",
+    "url": "https://github.com/celery/django-celery-beat"
+  },
+  {
+    "repository": "celery/kombu",
+    "url": "https://github.com/celery/kombu"
+  },
+  {
+    "repository": "certbot/certbot",
+    "url": "https://github.com/certbot/certbot"
+  },
+  {
+    "repository": "certtools/intelmq",
+    "url": "https://github.com/certtools/intelmq"
+  },
+  {
+    "repository": "clap-rs/clap",
+    "url": "https://github.com/clap-rs/clap"
+  },
+  {
+    "repository": "cli/cli",
+    "url": "https://github.com/cli/cli"
+  },
+  {
+    "repository": "cloud-custodian/cloud-custodian",
+    "url": "https://github.com/cloud-custodian/cloud-custodian"
+  },
+  {
+    "repository": "cloudtools/troposphere",
+    "url": "https://github.com/cloudtools/troposphere"
+  },
+  {
+    "repository": "coderamp-labs/gitingest",
+    "url": "https://github.com/coderamp-labs/gitingest"
+  },
+  {
+    "repository": "commaai/opendbc",
+    "url": "https://github.com/commaai/opendbc"
+  },
+  {
+    "repository": "conan-io/conan",
+    "url": "https://github.com/conan-io/conan"
+  },
+  {
+    "repository": "copier-org/copier",
+    "url": "https://github.com/copier-org/copier"
+  },
+  {
+    "repository": "cyclotruc/gitingest",
+    "url": "https://github.com/cyclotruc/gitingest"
+  },
+  {
+    "repository": "dbcli/mycli",
+    "url": "https://github.com/dbcli/mycli"
+  },
+  {
+    "repository": "dbcli/pgcli",
+    "url": "https://github.com/dbcli/pgcli"
+  },
+  {
+    "repository": "dbt-labs/dbt-core",
+    "url": "https://github.com/dbt-labs/dbt-core"
+  },
+  {
+    "repository": "deepset-ai/haystack",
+    "url": "https://github.com/deepset-ai/haystack"
+  },
+  {
+    "repository": "django-guardian/django-guardian",
+    "url": "https://github.com/django-guardian/django-guardian"
+  },
+  {
+    "repository": "django-json-api/django-rest-framework-json-api",
+    "url": "https://github.com/django-json-api/django-rest-framework-json-api"
+  },
+  {
+    "repository": "django/asgiref",
+    "url": "https://github.com/django/asgiref"
+  },
+  {
+    "repository": "docling-project/docling",
+    "url": "https://github.com/docling-project/docling"
+  },
+  {
+    "repository": "dottxt-ai/outlines",
+    "url": "https://github.com/dottxt-ai/outlines"
+  },
+  {
+    "repository": "dpkp/kafka-python",
+    "url": "https://github.com/dpkp/kafka-python"
+  },
+  {
+    "repository": "dynaconf/dynaconf",
+    "url": "https://github.com/dynaconf/dynaconf"
+  },
+  {
+    "repository": "elastic/logstash",
+    "url": "https://github.com/elastic/logstash"
+  },
+  {
+    "repository": "encode/django-rest-framework",
+    "url": "https://github.com/encode/django-rest-framework"
+  },
+  {
+    "repository": "encode/starlette",
+    "url": "https://github.com/encode/starlette"
+  },
+  {
+    "repository": "expressjs/express",
+    "url": "https://github.com/expressjs/express"
+  },
+  {
+    "repository": "facebookresearch/hydra",
+    "url": "https://github.com/facebookresearch/hydra"
+  },
+  {
+    "repository": "facelessuser/pymdown-extensions",
+    "url": "https://github.com/facelessuser/pymdown-extensions"
+  },
+  {
+    "repository": "feast-dev/feast",
+    "url": "https://github.com/feast-dev/feast"
+  },
+  {
+    "repository": "feature-engine/feature_engine",
+    "url": "https://github.com/feature-engine/feature_engine"
+  },
+  {
+    "repository": "fonttools/fonttools",
+    "url": "https://github.com/fonttools/fonttools"
+  },
+  {
+    "repository": "freqtrade/freqtrade",
+    "url": "https://github.com/freqtrade/freqtrade"
+  },
+  {
+    "repository": "fsspec/filesystem_spec",
+    "url": "https://github.com/fsspec/filesystem_spec"
+  },
+  {
+    "repository": "gaphor/gaphor",
+    "url": "https://github.com/gaphor/gaphor"
+  },
+  {
+    "repository": "gboeing/osmnx",
+    "url": "https://github.com/gboeing/osmnx"
+  },
+  {
+    "repository": "geopandas/geopandas",
+    "url": "https://github.com/geopandas/geopandas"
+  },
+  {
+    "repository": "gitpython-developers/GitPython",
+    "url": "https://github.com/gitpython-developers/GitPython"
+  },
+  {
+    "repository": "google/adk-python",
+    "url": "https://github.com/google/adk-python"
+  },
+  {
+    "repository": "gptme/gptme",
+    "url": "https://github.com/gptme/gptme"
+  },
+  {
+    "repository": "graphistry/pygraphistry",
+    "url": "https://github.com/graphistry/pygraphistry"
+  },
+  {
+    "repository": "hgrecco/pint",
+    "url": "https://github.com/hgrecco/pint"
+  },
+  {
+    "repository": "hiyouga/LLaMA-Factory",
+    "url": "https://github.com/hiyouga/LLaMA-Factory"
+  },
+  {
+    "repository": "home-assistant/supervisor",
+    "url": "https://github.com/home-assistant/supervisor"
+  },
+  {
+    "repository": "huggingface/datasets",
+    "url": "https://github.com/huggingface/datasets"
+  },
+  {
+    "repository": "huggingface/lighteval",
+    "url": "https://github.com/huggingface/lighteval"
+  },
+  {
+    "repository": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents"
+  },
+  {
+    "repository": "hynek/structlog",
+    "url": "https://github.com/hynek/structlog"
+  },
+  {
+    "repository": "iamkun/dayjs",
+    "url": "https://github.com/iamkun/dayjs"
+  },
+  {
+    "repository": "ibis-project/ibis",
+    "url": "https://github.com/ibis-project/ibis"
+  },
+  {
+    "repository": "icloud-photos-downloader/icloud_photos_downloader",
+    "url": "https://github.com/icloud-photos-downloader/icloud_photos_downloader"
+  },
+  {
+    "repository": "instructlab/instructlab",
+    "url": "https://github.com/instructlab/instructlab"
+  },
+  {
+    "repository": "ipython/ipython",
+    "url": "https://github.com/ipython/ipython"
+  },
+  {
+    "repository": "iterative/dvc",
+    "url": "https://github.com/iterative/dvc"
+  },
+  {
+    "repository": "jarun/buku",
+    "url": "https://github.com/jarun/buku"
+  },
+  {
+    "repository": "jazzband/djangorestframework-simplejwt",
+    "url": "https://github.com/jazzband/djangorestframework-simplejwt"
+  },
+  {
+    "repository": "jazzband/tablib",
+    "url": "https://github.com/jazzband/tablib"
+  },
+  {
+    "repository": "jlowin/fastmcp",
+    "url": "https://github.com/jlowin/fastmcp"
+  },
+  {
+    "repository": "joke2k/faker",
+    "url": "https://github.com/joke2k/faker"
+  },
+  {
+    "repository": "jpadilla/pyjwt",
+    "url": "https://github.com/jpadilla/pyjwt"
+  },
+  {
+    "repository": "jqlang/jq",
+    "url": "https://github.com/jqlang/jq"
+  },
+  {
+    "repository": "kedro-org/kedro",
+    "url": "https://github.com/kedro-org/kedro"
+  },
+  {
+    "repository": "keephq/keep",
+    "url": "https://github.com/keephq/keep"
+  },
+  {
+    "repository": "keon/algorithms",
+    "url": "https://github.com/keon/algorithms"
+  },
+  {
+    "repository": "keras-team/keras",
+    "url": "https://github.com/keras-team/keras"
+  },
+  {
+    "repository": "koxudaxi/datamodel-code-generator",
+    "url": "https://github.com/koxudaxi/datamodel-code-generator"
+  },
+  {
+    "repository": "kubernetes-client/python",
+    "url": "https://github.com/kubernetes-client/python"
+  },
+  {
+    "repository": "lastmile-ai/mcp-agent",
+    "url": "https://github.com/lastmile-ai/mcp-agent"
+  },
+  {
+    "repository": "lektor/lektor",
+    "url": "https://github.com/lektor/lektor"
+  },
+  {
+    "repository": "llamastack/llama-stack",
+    "url": "https://github.com/llamastack/llama-stack"
+  },
+  {
+    "repository": "matplotlib/matplotlib",
+    "url": "https://github.com/matplotlib/matplotlib"
+  },
+  {
+    "repository": "mesonbuild/meson",
+    "url": "https://github.com/mesonbuild/meson"
+  },
+  {
+    "repository": "microsoft/graphrag",
+    "url": "https://github.com/microsoft/graphrag"
+  },
+  {
+    "repository": "mikedh/trimesh",
+    "url": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "repository": "mlco2/codecarbon",
+    "url": "https://github.com/mlco2/codecarbon"
+  },
+  {
+    "repository": "modelcontextprotocol/python-sdk",
+    "url": "https://github.com/modelcontextprotocol/python-sdk"
+  },
+  {
+    "repository": "mui/material-ui",
+    "url": "https://github.com/mui/material-ui"
+  },
+  {
+    "repository": "mwaskom/seaborn",
+    "url": "https://github.com/mwaskom/seaborn"
+  },
+  {
+    "repository": "networktocode/ntc-templates",
+    "url": "https://github.com/networktocode/ntc-templates"
+  },
+  {
+    "repository": "networkx/networkx",
+    "url": "https://github.com/networkx/networkx"
+  },
+  {
+    "repository": "nlohmann/json",
+    "url": "https://github.com/nlohmann/json"
+  },
+  {
+    "repository": "nonebot/nonebot2",
+    "url": "https://github.com/nonebot/nonebot2"
+  },
+  {
+    "repository": "olofk/fusesoc",
+    "url": "https://github.com/olofk/fusesoc"
+  },
+  {
+    "repository": "open-telemetry/opentelemetry-python",
+    "url": "https://github.com/open-telemetry/opentelemetry-python"
+  },
+  {
+    "repository": "openai/openai-agents-python",
+    "url": "https://github.com/openai/openai-agents-python"
+  },
+  {
+    "repository": "oumi-ai/oumi",
+    "url": "https://github.com/oumi-ai/oumi"
+  },
+  {
+    "repository": "pallets/flask",
+    "url": "https://github.com/pallets/flask"
+  },
+  {
+    "repository": "patroni/patroni",
+    "url": "https://github.com/patroni/patroni"
+  },
+  {
+    "repository": "pdm-project/pdm",
+    "url": "https://github.com/pdm-project/pdm"
+  },
+  {
+    "repository": "pex-tool/pex",
+    "url": "https://github.com/pex-tool/pex"
+  },
+  {
+    "repository": "pgmpy/pgmpy",
+    "url": "https://github.com/pgmpy/pgmpy"
+  },
+  {
+    "repository": "pipecat-ai/pipecat",
+    "url": "https://github.com/pipecat-ai/pipecat"
+  },
+  {
+    "repository": "piskvorky/smart_open",
+    "url": "https://github.com/piskvorky/smart_open"
+  },
+  {
+    "repository": "praw-dev/praw",
+    "url": "https://github.com/praw-dev/praw"
+  },
+  {
+    "repository": "privacyidea/privacyidea",
+    "url": "https://github.com/privacyidea/privacyidea"
+  },
+  {
+    "repository": "projectmesa/mesa",
+    "url": "https://github.com/projectmesa/mesa"
+  },
+  {
+    "repository": "psf/black",
+    "url": "https://github.com/psf/black"
+  },
+  {
+    "repository": "psf/requests",
+    "url": "https://github.com/psf/requests"
+  },
+  {
+    "repository": "pvlib/pvlib-python",
+    "url": "https://github.com/pvlib/pvlib-python"
+  },
+  {
+    "repository": "py-pdf/pypdf",
+    "url": "https://github.com/py-pdf/pypdf"
+  },
+  {
+    "repository": "pybamm-team/PyBaMM",
+    "url": "https://github.com/pybamm-team/PyBaMM"
+  },
+  {
+    "repository": "pydata/xarray",
+    "url": "https://github.com/pydata/xarray"
+  },
+  {
+    "repository": "pyinfra-dev/pyinfra",
+    "url": "https://github.com/pyinfra-dev/pyinfra"
+  },
+  {
+    "repository": "pyinstaller/pyinstaller",
+    "url": "https://github.com/pyinstaller/pyinstaller"
+  },
+  {
+    "repository": "pylint-dev/pylint",
+    "url": "https://github.com/pylint-dev/pylint"
+  },
+  {
+    "repository": "pynamodb/PynamoDB",
+    "url": "https://github.com/pynamodb/PynamoDB"
+  },
+  {
+    "repository": "pypa/cibuildwheel",
+    "url": "https://github.com/pypa/cibuildwheel"
+  },
+  {
+    "repository": "pypa/pipx",
+    "url": "https://github.com/pypa/pipx"
+  },
+  {
+    "repository": "pypa/twine",
+    "url": "https://github.com/pypa/twine"
+  },
+  {
+    "repository": "pytest-dev/pytest",
+    "url": "https://github.com/pytest-dev/pytest"
+  },
+  {
+    "repository": "python-attrs/attrs",
+    "url": "https://github.com/python-attrs/attrs"
+  },
+  {
+    "repository": "python-babel/babel",
+    "url": "https://github.com/python-babel/babel"
+  },
+  {
+    "repository": "python-control/python-control",
+    "url": "https://github.com/python-control/python-control"
+  },
+  {
+    "repository": "python-pillow/Pillow",
+    "url": "https://github.com/python-pillow/Pillow"
+  },
+  {
+    "repository": "python-poetry/poetry",
+    "url": "https://github.com/python-poetry/poetry"
+  },
+  {
+    "repository": "python-telegram-bot/python-telegram-bot",
+    "url": "https://github.com/python-telegram-bot/python-telegram-bot"
+  },
+  {
+    "repository": "python/mypy",
+    "url": "https://github.com/python/mypy"
+  },
+  {
+    "repository": "pytorch/torchtitan",
+    "url": "https://github.com/pytorch/torchtitan"
+  },
+  {
+    "repository": "pytorch/torchtune",
+    "url": "https://github.com/pytorch/torchtune"
+  },
+  {
+    "repository": "pytransitions/transitions",
+    "url": "https://github.com/pytransitions/transitions"
+  },
+  {
+    "repository": "qtile/qtile",
+    "url": "https://github.com/qtile/qtile"
+  },
+  {
+    "repository": "quantumlib/Cirq",
+    "url": "https://github.com/quantumlib/Cirq"
+  },
+  {
+    "repository": "qubvel-org/segmentation_models.pytorch",
+    "url": "https://github.com/qubvel-org/segmentation_models.pytorch"
+  },
+  {
+    "repository": "reata/sqllineage",
+    "url": "https://github.com/reata/sqllineage"
+  },
+  {
+    "repository": "reflex-dev/reflex",
+    "url": "https://github.com/reflex-dev/reflex"
+  },
+  {
+    "repository": "rthalley/dnspython",
+    "url": "https://github.com/rthalley/dnspython"
+  },
+  {
+    "repository": "run-llama/llama_deploy",
+    "url": "https://github.com/run-llama/llama_deploy"
+  },
+  {
+    "repository": "scikit-learn-contrib/category_encoders",
+    "url": "https://github.com/scikit-learn-contrib/category_encoders"
+  },
+  {
+    "repository": "scikit-learn/scikit-learn",
+    "url": "https://github.com/scikit-learn/scikit-learn"
+  },
+  {
+    "repository": "scrapy-plugins/scrapy-splash",
+    "url": "https://github.com/scrapy-plugins/scrapy-splash"
+  },
+  {
+    "repository": "shapely/shapely",
+    "url": "https://github.com/shapely/shapely"
+  },
+  {
+    "repository": "sharkdp/bat",
+    "url": "https://github.com/sharkdp/bat"
+  },
+  {
+    "repository": "simonw/llm",
+    "url": "https://github.com/simonw/llm"
+  },
+  {
+    "repository": "sissbruecker/linkding",
+    "url": "https://github.com/sissbruecker/linkding"
+  },
+  {
+    "repository": "slackapi/bolt-python",
+    "url": "https://github.com/slackapi/bolt-python"
+  },
+  {
+    "repository": "slackapi/python-slack-sdk",
+    "url": "https://github.com/slackapi/python-slack-sdk"
+  },
+  {
+    "repository": "sooperset/mcp-atlassian",
+    "url": "https://github.com/sooperset/mcp-atlassian"
+  },
+  {
+    "repository": "sphinx-doc/sphinx",
+    "url": "https://github.com/sphinx-doc/sphinx"
+  },
+  {
+    "repository": "spulec/freezegun",
+    "url": "https://github.com/spulec/freezegun"
+  },
+  {
+    "repository": "stanford-crfm/helm",
+    "url": "https://github.com/stanford-crfm/helm"
+  },
+  {
+    "repository": "stanfordnlp/dspy",
+    "url": "https://github.com/stanfordnlp/dspy"
+  },
+  {
+    "repository": "streamlink/streamlink",
+    "url": "https://github.com/streamlink/streamlink"
+  },
+  {
+    "repository": "sveltejs/svelte",
+    "url": "https://github.com/sveltejs/svelte"
+  },
+  {
+    "repository": "sympy/sympy",
+    "url": "https://github.com/sympy/sympy"
+  },
+  {
+    "repository": "theOehrly/Fast-F1",
+    "url": "https://github.com/theOehrly/Fast-F1"
+  },
+  {
+    "repository": "theskumar/python-dotenv",
+    "url": "https://github.com/theskumar/python-dotenv"
+  },
+  {
+    "repository": "tokio-rs/tokio",
+    "url": "https://github.com/tokio-rs/tokio"
+  },
+  {
+    "repository": "tokio-rs/tracing",
+    "url": "https://github.com/tokio-rs/tracing"
+  },
+  {
+    "repository": "tox-dev/tox",
+    "url": "https://github.com/tox-dev/tox"
+  },
+  {
+    "repository": "traceloop/openllmetry",
+    "url": "https://github.com/traceloop/openllmetry"
+  },
+  {
+    "repository": "trailofbits/algo",
+    "url": "https://github.com/trailofbits/algo"
+  },
+  {
+    "repository": "typeddjango/django-stubs",
+    "url": "https://github.com/typeddjango/django-stubs"
+  },
+  {
+    "repository": "urllib3/urllib3",
+    "url": "https://github.com/urllib3/urllib3"
+  },
+  {
+    "repository": "vacanza/holidays",
+    "url": "https://github.com/vacanza/holidays"
+  },
+  {
+    "repository": "vega/altair",
+    "url": "https://github.com/vega/altair"
+  },
+  {
+    "repository": "vuejs/core",
+    "url": "https://github.com/vuejs/core"
+  },
+  {
+    "repository": "wemake-services/wemake-python-styleguide",
+    "url": "https://github.com/wemake-services/wemake-python-styleguide"
+  },
+  {
+    "repository": "wireservice/csvkit",
+    "url": "https://github.com/wireservice/csvkit"
+  },
+  {
+    "repository": "yt-dlp/yt-dlp",
+    "url": "https://github.com/yt-dlp/yt-dlp"
+  }
+]

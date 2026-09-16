@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use SERBench, please cite the accompanying paper."
+title: "The Missing Complement: State-Conditioned Minimal Sufficient Evidence for Coding Agents"
+type: article
+authors:
+  - family-names: Feng
+    given-names: Zhexi
+  - family-names: Zhang
+    given-names: Ruiyi
+  - family-names: Yang
+    given-names: Yongbo
+  - family-names: Xie
+    given-names: Pengtao
+year: 2026
+repository-code: "https://github.com/LordTARN1SHED/SERBench"

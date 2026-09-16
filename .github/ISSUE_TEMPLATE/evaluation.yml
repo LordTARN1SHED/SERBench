@@ -1,0 +1,49 @@
+name: Test500 evaluation
+description: Submit frozen predictions for private-certificate scoring. Predictions and scores are public.
+title: '[Evaluation] '
+labels: ['evaluation']
+body:
+  - type: markdown
+    attributes:
+      value: 'Submit 500 states, one method, at most eight IDs per state. Use a raw GitHub URL from a repository owned by your submitting account, pinned to a full 40-character commit SHA. Do not submit private information. One accepted evaluation per account per seven days.'
+  - type: input
+    id: method
+    attributes:
+      label: Method name
+    validations:
+      required: true
+  - type: input
+    id: prediction-url
+    attributes:
+      label: Prediction URL
+      placeholder: https://raw.githubusercontent.com/YOU/REPO/COMMIT/predictions.jsonl
+    validations:
+      required: true
+  - type: input
+    id: sha256
+    attributes:
+      label: Prediction SHA256
+    validations:
+      required: true
+  - type: input
+    id: release
+    attributes:
+      label: Dataset release
+      value: serbench-public-v1-v5.6
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Method description
+      description: Model, configuration, source budget, calibration procedure, and code version.
+    validations:
+      required: true
+  - type: dropdown
+    id: consent
+    attributes:
+      label: Publication consent
+      options:
+        - I agree to publish my predictions, method name, and aggregate scores.
+    validations:
+      required: true

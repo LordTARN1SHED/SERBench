@@ -1,0 +1,56 @@
+{
+  "source_archive": "SERBench_ICLR2027_Supplementary_v5_6.zip",
+  "source_sha256": "42e7f5c0edc53a63a6d08dc7cbbc4a5f31d4104dff0d0fe47cfbc79f34b38148",
+  "nested_member": "results/Main_Test500_results_20260907.zip",
+  "nested_sha256": "6de95ad42dba8edef1922f78f6c3723bab5c5ee38ee3ce1a5f6474258cc89a30",
+  "files": {
+    "agentir.json": {
+      "source_member": "scores/agentir/summary.json",
+      "sha256": "38282b4fc7452b5275eb47d150b669d39e8984dd1f496bb9a85e2d48fe9ba671"
+    },
+    "agent_modern_colbert.json": {
+      "source_member": "scores/agent_modern_colbert/summary.json",
+      "sha256": "c98a8a53373e29d3cede3983c54ccb796f74a9ff46cb67cb73af03f04f1b095c"
+    },
+    "bge.json": {
+      "source_member": "scores/bge/summary.json",
+      "sha256": "3dee265791efa37322bc1c97060338bd53ba90fb9391417e8a4415850b42ad09"
+    },
+    "bm25.json": {
+      "source_member": "scores/bm25/summary.json",
+      "sha256": "ecb15f789c1f70c2d40022f6be13cf8b598fee0b891447ef2c8a2112a832efb9"
+    },
+    "colbertv2.json": {
+      "source_member": "scores/colbertv2/summary.json",
+      "sha256": "c8d89d12f9433a2124690592cea3e5f67bb44933c97717bbffc66abe89c5e3af"
+    },
+    "mss_complement_B8_QA.json": {
+      "source_member": "scores/mss_complement_B8_QA/summary.json",
+      "sha256": "8dc498bdd04bf9d99b1487cceb5c910d0c437ee1679d85acc050f247bcf0a06d"
+    },
+    "qwen3_embedding_8b.json": {
+      "source_member": "scores/qwen3_embedding_8b/summary.json",
+      "sha256": "d7df5c1257f05258625c49a31c2c5a01fbef04e65179a1303c77a67a1a40b79b"
+    },
+    "qwen3_reranker_8b.json": {
+      "source_member": "scores/qwen3_reranker_8b/summary.json",
+      "sha256": "df05be0836f2c481d2e0ea188488277c14e41f443445a4ca5034fb28cfbe98eb"
+    },
+    "qwen3_reranker_mmr.json": {
+      "source_member": "scores/qwen3_reranker_mmr/summary.json",
+      "sha256": "e6a8270095c3c2aa96239067671d66abd9b1ff46829fc083f439bb1ec3fcbfd2"
+    },
+    "reasonir_8b.json": {
+      "source_member": "scores/reasonir_8b/summary.json",
+      "sha256": "971338da5855a68b5be79c501e1c8268dd56b8cd95887462aa1e5ebc8a2b968a"
+    },
+    "splade_pp.json": {
+      "source_member": "scores/splade_pp/summary.json",
+      "sha256": "7fe68620b960f5769df91693ba17cc620d3f51feda2812697889b4994bb174b0"
+    },
+    "swerank_embed_large.json": {
+      "source_member": "scores/swerank_embed_large/summary.json",
+      "sha256": "cfbb406cb6a2d962f1cf75471cbb323dd380c995e85553bc07387e6994e4ebc0"
+    }
+  }
+}

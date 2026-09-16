@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SERBench prediction row",
+  "type": "object",
+  "required": ["state_id", "method", "ranked_evidence_ids"],
+  "properties": {
+    "state_id": {"type": "string", "minLength": 1},
+    "method": {"type": "string", "minLength": 1},
+    "ranked_evidence_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    }
+  },
+  "description": "Use the CLI for cross-record state coverage and candidate membership validation."
+}
