@@ -28,7 +28,7 @@ python -m serbench score --split example --predictions predictions.jsonl --k 5 8
 
 候选池可以包含已观察条目，但证书仍定义当前缺失的支持。评分保留原始返回顺序：已观察条目占用位置，不会自动删除并递补。Cal500 是机器校准并跨模型修复的标注，不应表述成与 Test500 相同的独立人工裁决数据。
 
-Test500 请先在本地校验预测，再按[评测说明](docs/EVALUATION.md#held-out-test500-evaluation)提交 GitHub 评测请求。私有评测任务启用后定时处理并回复汇总分数，不公开隐藏标签。网站显示服务状态；启用前可联系 **zhf023@ucsd.edu** 由作者协助评分。预测文件和评测请求公开，机密预测请勿提交到公开 Issue。
+Test500 请先在本地校验预测，再按[评测说明](docs/EVALUATION.md#held-out-test500-evaluation)提交 GitHub 评测请求。私有评分服务已通过端到端联调，每 30 分钟检查队列，成功评分后自动回复五项汇总结果并更新社区榜单，不公开隐藏标签。GitHub 调度可能延迟，不承诺即时评分。论文主表十二种方法的冻结结果与社区提交分开展示。预测文件和评测请求公开，机密预测请联系 **zhf023@ucsd.edu**，不要提交到公开 Issue。
 
 论文在 Test500 上的 Complete-MSS@5 / @8：MSS-Complement 为 **73.0% / 80.6%**，Qwen3 embedding with reranking 为 **61.4% / 72.4%**。这些是论文参考结果，不是示例运行结果。
 
