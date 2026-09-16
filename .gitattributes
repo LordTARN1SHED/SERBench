@@ -5,3 +5,5 @@
 *.gz binary
 *.png binary
 *.pdf binary
+data/example/*.jsonl -text
+reference_results/*.json -text
