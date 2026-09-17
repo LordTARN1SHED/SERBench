@@ -1,5 +1,12 @@
 # Changelog
 
+## Paper and artifact alignment — v5.11
+
+- Updated the linked arXiv manuscript and benchmark overview figure to paper v5.11.
+- Confirmed that the twelve primary Test500 result summaries and public benchmark data remain unchanged in the v5.7 supplementary package.
+- The v5.7 supplementary package omits the Paired27 dataset and paired-result archives; neither is part of this public benchmark interface.
+- Preserved the frozen `serbench-public-v1-v5.6` scoring-contract identifier; this is a data-interface version, not the manuscript version.
+
 ## 0.1.0 — Initial public interface
 
 - Published the Cal500 and Test500 inference interface aligned with paper v5.6.

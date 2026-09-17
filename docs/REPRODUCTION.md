@@ -4,10 +4,10 @@ This public release focuses on using SERBench: loading the benchmark, integratin
 
 ## Available here
 
-- [Paper](paper.pdf): the v5.6 arXiv manuscript.
+- [Paper](paper.pdf): the current v5.11 arXiv manuscript.
 - [Public data and provenance](../data/manifest.json): Cal500 states, candidates and calibration certificates; Test500 states and candidates. Source archives, transformations and checksums are recorded in the manifest.
 - [Reference scorer](../src/serbench/_reference_scorer.py): the frozen scoring functions, wrapped by strict public input validation.
-- [Frozen primary results](../reference_results/): the twelve primary Test500 methods' aggregate summary files from the v5.6 supplementary release, preserved without changing their numerical results. Fractions should be multiplied by 100 for percentages.
+- [Frozen primary results](../reference_results/): the twelve primary Test500 methods' aggregate summary files from the v5.6 supplementary release, retained unchanged in the v5.7 supplementary package and the v5.11 manuscript. Fractions should be multiplied by 100 for percentages.
 - [Quick start](QUICKSTART.md) and [evaluation protocol](EVALUATION.md): executable examples for new methods.
 
 The included BM25 starter is for onboarding. It is not the paper's frozen BM25 run, and these materials do not claim to regenerate MSS-Complement or the external-validity experiments end to end. Model-dependent experiments also require their specified model access, configurations and inference budgets.
