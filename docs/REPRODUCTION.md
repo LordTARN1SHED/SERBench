@@ -4,7 +4,7 @@ This public release focuses on using SERBench: loading the benchmark, integratin
 
 ## Available here
 
-- [Paper](paper.pdf): the current v5.11 arXiv manuscript.
+- [Paper on arXiv](https://arxiv.org/abs/2609.20050): the current manuscript and its revision history.
 - [Public data and provenance](../data/manifest.json): Cal500 states, candidates and calibration certificates; Test500 states and candidates. Source archives, transformations and checksums are recorded in the manifest.
 - [Reference scorer](../src/serbench/_reference_scorer.py): the frozen scoring functions, wrapped by strict public input validation.
 - [Frozen primary results](../reference_results/): the twelve primary Test500 methods' aggregate summary files from the v5.6 supplementary release, retained unchanged in the v5.7 supplementary package and the v5.11 manuscript. Fractions should be multiplied by 100 for percentages.

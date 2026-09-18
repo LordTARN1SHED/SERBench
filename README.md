@@ -9,7 +9,7 @@
 
 Browse the website without signing in. A GitHub account is needed only to submit a Test500 evaluation.
 
-[Paper](docs/paper.pdf) · [Quick start](#quick-start) · [Integrate your method](docs/QUICKSTART.md) · [Dataset](docs/DATASET.md) · [Evaluation](docs/EVALUATION.md) · [中文](README_zh.md)
+[Paper on arXiv](https://arxiv.org/abs/2609.20050) · [Quick start](#quick-start) · [Integrate your method](docs/QUICKSTART.md) · [Dataset](docs/DATASET.md) · [Evaluation](docs/EVALUATION.md) · [中文](README_zh.md)
 
 **500 calibration states · 500 held-out states · Grouped sufficiency · Source-grounded evidence**
 

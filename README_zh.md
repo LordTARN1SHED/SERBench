@@ -4,7 +4,7 @@
 
 浏览网站无需登录；仅提交 Test500 评测时需要 GitHub 账号。
 
-[English](README.md) · [论文](docs/paper.pdf) · [数据说明](docs/DATASET.md) · [评测流程](docs/EVALUATION.md)
+[English](README.md) · [论文（arXiv）](https://arxiv.org/abs/2609.20050) · [数据说明](docs/DATASET.md) · [评测流程](docs/EVALUATION.md)
 
 SERBench 面向编码智能体，评测的不是“某段内容是否相关”，而是“返回的证据组合是否覆盖当前决策尚缺的必要信息”。本仓库提供便于加载的数据、严格的预测校验、官方评分逻辑及可直接运行的基础示例，不是 OpenReview 实验复现包的简单镜像。
 

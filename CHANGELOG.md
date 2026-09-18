@@ -1,5 +1,10 @@
 # Changelog
 
+## Canonical paper link
+
+- Pointed public paper links to the unversioned [arXiv record](https://arxiv.org/abs/2609.20050) so later manuscript revisions appear at the same URL.
+- Removed the duplicate PDF from this benchmark repository; its prior copy remains recoverable in Git history.
+
 ## Paper and artifact alignment — v5.11
 
 - Updated the linked arXiv manuscript and benchmark overview figure to paper v5.11.
